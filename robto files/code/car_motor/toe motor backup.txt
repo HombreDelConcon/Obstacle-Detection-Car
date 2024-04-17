@@ -1,0 +1,79 @@
+unsigned short int ena3 = 7;
+unsigned short int ena4 = 8;
+unsigned short int enb = 9;
+
+unsigned short int ena1 = 5;
+unsigned short int ena2 = 4;
+unsigned short int ena = 6;
+
+int pot_out = A1;
+int pot_pwr = 12;
+
+void setup() {
+
+  Serial.begin(9600);
+  // put your setup code here, to run once:
+  pinMode(ena3, OUTPUT);
+  pinMode(ena4, OUTPUT);
+  pinMode(enb, OUTPUT);
+
+  pinMode(ena1, OUTPUT);
+  pinMode(ena2, OUTPUT);
+  pinMode(ena, OUTPUT);
+
+  pinMode(pot_out, INPUT);
+  pinMode(pot_pwr, OUTPUT);
+
+  digitalWrite(pot_pwr, HIGH);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  int v = analogRead(pot_out);
+  float v2 = (5./1023.) * v;
+  Serial.println(v/4);
+
+  move_forward(v/4);
+}
+
+//move stubber forward
+void move_forward(v){
+  digitalWrite(ena3, HIGH);
+  digitalWrite(ena4, LOW);
+
+  digitalWrite(ena1, LOW);
+  digitalWrite(ena2, HIGH);
+
+  analogWrite(enb, v);
+  analogWrite(ena, v);
+}
+
+//move stubber backwards
+void move_back(v){
+  digitalWrite(ena3, LOW);
+  digitalWrite(ena4, HIGH);
+
+  digitalWrite(ena1, HIGH);
+  digitalWrite(ena2, LOW);
+
+  analogWrite(enb, v);
+  analogWrite(ena, v);
+}
+
+//rotate stubber left
+void rotate_left(v){
+  digitalWrite(ena3, HIGH);
+  digitalWrite(ena4, LOW);
+
+  analogWrite(enb, v);
+  analogWrite(ena, v);
+}
+
+void rotate_right(v){
+  digitalWrite(ena1, HIGH);
+  digitalWrite(ena2, LOW);
+
+  analogWrite(enb, v);
+  analogWrite(ena, v);
+}
