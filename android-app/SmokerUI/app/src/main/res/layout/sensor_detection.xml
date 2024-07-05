@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/smoker_pic" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <com.ongolly.smokerv2interface.SensorOutput
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/map_display"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/text_under"
+            android:text="Detected obstacles here"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#E4080A"
+            />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2024-04-05T14:46:29.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="HBH-2ArSrdIuBnL5ysY7" version="24.2.2" type="device">
+  <diagram name="Page-1" id="Qz1ocVwz-1NTQvJ2N5UP">
+    <mxGraphModel dx="1245" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="155" width="330" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-3" value="Control" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QR11kOaI_NWy_5Qdsa-k-4" target="QR11kOaI_NWy_5Qdsa-k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-4" value="Detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-5" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="330" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.295;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QR11kOaI_NWy_5Qdsa-k-3" target="QR11kOaI_NWy_5Qdsa-k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-7" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="330" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-9" value="Forward" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="120" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-10" value="Back" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="200" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-11" value="Left" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-12" value="Right" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="160" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="440" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="440" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="420" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QR11kOaI_NWy_5Qdsa-k-18" value="NOTE: basically just shows where it thinks there is an object based on the angle at which the servo is and the distance readings&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="420" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
