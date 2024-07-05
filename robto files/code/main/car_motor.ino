@@ -14,8 +14,8 @@
 #define MOTOR_DRIVE_TIME 300
 
 //WiFi Credentials
-const char *ssid  = "Edging";//"PA-Place-1610";
-const char *pw = "Extr@cto700";//"paplacehu1610";
+const char *ssid  = "";
+const char *pw = "";
 
 //Connection status
 int status = WL_IDLE_STATUS;
